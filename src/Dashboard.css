@@ -1,0 +1,27 @@
+/* src/Dashboard.css */
+.dashboard {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 16px;
+  padding: 20px;
+}
+
+.service-box {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  background-color: #fff;
+  transition: background-color 0.3s;
+}
+
+.service-box.error {
+  background-color: #ccc;
+}
+
+.service-box h3 {
+  margin: 0 0 8px 0;
+}
+
+.service-box p {
+  margin: 4px 0;
+}
